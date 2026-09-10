@@ -218,6 +218,7 @@ img {
 /* ===== Section shared ===== */
 section {
   padding: 90px 0;
+  scroll-margin-top: 76px;
 }
 
 .section-title {
