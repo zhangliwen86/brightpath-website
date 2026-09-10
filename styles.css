@@ -398,3 +398,18 @@ section {
     padding: 90px 0 70px;
   }
 }
+
+@media (max-width: 360px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .menu-toggle {
+    flex-shrink: 0;
+  }
+}
