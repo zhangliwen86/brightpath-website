@@ -150,6 +150,7 @@ img {
   gap: 5px;
   width: 32px;
   height: 32px;
+  flex-shrink: 0;
   background: none;
   border: none;
   cursor: pointer;
