@@ -365,7 +365,7 @@ section {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 860px) {
   .header-inner {
   height: auto;
   min-height: 76px;
