@@ -55,6 +55,22 @@ a {
   color: inherit;
 }
 
+.skip-link {
+  position: absolute;
+  left: 24px;
+  top: -60px;
+  z-index: 1000;
+  background: var(--navy);
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -72,13 +88,13 @@ img {
 }
 
 .btn-primary {
-  background: var(--teal);
+  background: var(--teal-dark);
   color: #ffffff;
   min-width: 220px;
 }
 
 .btn-primary:hover {
-  background: var(--teal-dark);
+  background: var(--navy);
 }
 
 .btn-secondary {
@@ -301,7 +317,7 @@ section {
   padding: 20px 24px;
 }
 
-.highlight h4 {
+.highlight h3 {
   font-size: 1rem;
   margin-bottom: 8px;
 }
@@ -407,6 +423,7 @@ section {
   .container {
     padding-left: 16px;
     padding-right: 16px;
+    gap: 8px;
   }
 
   .logo {

@@ -24,5 +24,12 @@ document.addEventListener('DOMContentLoaded', function () {
         menuToggle.setAttribute('aria-expanded', 'false');
       });
     });
+    document.addEventListener('keydown', function (event) {
+  if (event.key === 'Escape' && mainNav.classList.contains('open')) {
+    mainNav.classList.remove('open');
+    menuToggle.setAttribute('aria-expanded', 'false');
+    menuToggle.focus();
+  }
+});
   }
 });
