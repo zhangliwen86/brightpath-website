@@ -366,11 +366,14 @@ section {
 }
 
 @media (max-width: 720px) {
+  .header-inner {
+  height: auto;
+  min-height: 76px;
+  flex-wrap: wrap;
+}
   .main-nav {
-    position: absolute;
-    top: 76px;
-    left: 0;
-    right: 0;
+   width: 100%;
+   order: 3;
     background: #ffffff;
     border-bottom: 1px solid var(--border);
     flex-direction: column;
